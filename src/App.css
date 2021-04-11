@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 100vw;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +37,83 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.LoginForm {
+  width: 400px;
+  height: 300px;
+  margin: 100px auto;
+  box-shadow: 0px 0px 10px rgb(117, 113, 113);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: left;
+  font-size: 20px;
+}
+
+label {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.Input {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+input:focus,
+input:active,
+input:hover {
+  outline: none;
+}
+
+.Button {
+  border: none;
+  background-color: #00b1ff;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Button:hover {
+  background-color: #2049b9;
+  cursor: pointer;
+}
+
+.Input:hover {
+  outline: 2px solid #00b1ff;
+}
+
+.RegisterForm {
+  height: 400px;
+}
+
+.jtc-fs {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.jtc-sb {
+  justify-content: space-between;
+}
+
+.IC {
+  width: 30px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.IC:hover {
+  color: rgb(105, 102, 102);
 }
